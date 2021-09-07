@@ -11,7 +11,7 @@ def test_object(centered=True):
 	"""
 	# get the coordinates of the test object (this is hard coded on a certain set of coordinates)
     X = np.array([[4, 4, 4.5, 4.5, 6, 6, 4.5, 4.5, 7, 7, 4], [10, 4, 4, 7, 7, 7.5, 7.5, 9.5, 9.5, 10, 10]])
-	# when centered is True, make the  
+	# when centered is True, make the hjihhyucvout 
     if centered:
         X[0, :] = X[0, :] - np.mean(X[0, :])
         X[1, :] = X[1, :] - np.mean(X[1, :])
